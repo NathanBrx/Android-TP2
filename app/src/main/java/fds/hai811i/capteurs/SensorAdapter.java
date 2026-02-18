@@ -22,8 +22,7 @@ public class SensorAdapter extends RecyclerView.Adapter<SensorAdapter.SensorView
     @NonNull
     @Override
     public SensorViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.sensor, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.sensor, parent, false);
         return new SensorViewHolder(view);
     }
 
@@ -34,7 +33,7 @@ public class SensorAdapter extends RecyclerView.Adapter<SensorAdapter.SensorView
         holder.tvName.setText(sensor.getName());
         holder.tvVendor.setText(sensor.getVendor());
 
-        holder.tvType.setText(String.format(Locale.getDefault(), "Type: %d", sensor.getType()));
+        holder.tvType.setText(sensor.getStringType());
         holder.tvVersion.setText(String.format(Locale.getDefault(), "Version: %d", sensor.getVersion()));
 
         holder.tvPower.setText(String.format(Locale.getDefault(), "Power used: %.2f mA", sensor.getPower()));
