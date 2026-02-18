@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Capteurs</string>
+    <string name="sensorlist">Liste des capteurs</string>
+    <string name="toSensorListBtn">Afficher la liste des capteurs</string>
+</resources>
