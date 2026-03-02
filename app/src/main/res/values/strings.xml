@@ -3,6 +3,7 @@
     <string name="toSensorListBtn">Afficher la liste des capteurs</string>
     <string name="toMissingSensorListBtn">Afficher la liste des capteurs manquants</string>
     <string name="toAccelerometerBtn">Ouvrir le test d\'accéléromètre</string>
+    <string name="toDirectionBtn">Ouvrir le test de direction</string>
     <string name="dontHave">Vous n\'avez pas de capteur de type :</string>
     <string name="accelerometer">Secouez le téléphone pour changer le fond d\'écran</string>
 </resources>
