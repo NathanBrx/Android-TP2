@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button toDirection = findViewById(R.id.toDirection);
         toDirection.setOnClickListener(view -> goTo(DirectionActivity.class));
+
+        Button toFlashShut = findViewById(R.id.toFlashShut);
+        toFlashShut.setOnClickListener(view -> goTo(FlashActivity.class));
     }
 
     private void goToSensorList(String mode) {
