@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         Button toMissingSensorList = findViewById(R.id.toMissingSensorList);
         toMissingSensorList.setOnClickListener(view -> goToSensorList("missing"));
+
+        Button toAccelerometer = findViewById(R.id.toAccelerometer);
+        toAccelerometer.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this, AccelerometerActivity.class);
+            startActivity(i);
+        });
     }
 
     private void goToSensorList(String mode) {
