@@ -6,8 +6,10 @@
     <string name="toDirectionBtn">Lancer le test de direction</string>
     <string name="toFlashBtn">Lancer le test du flash</string>
     <string name="toProximityBtn">Lancer le test de proximité</string>
+    <string name="toGPSBtn">Afficher votre position GPS</string>
     <string name="dontHave">Vous n\'avez pas de capteur de type :</string>
     <string name="accelerometer">Secouez le téléphone pour changer le fond d\'écran</string>
     <string name="flash">Secouez le téléphone pour allumer le flash ou l\'éteindre</string>
     <string name="indicator">proximity indicator</string>
+    <string name="refresh">Refresh</string>
 </resources>
