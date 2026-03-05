@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".SensorActivity"/>
         <activity android:name=".AccelerometerActivity"/>
+        <activity android:name=".DirectionActivity"/>
     </application>
 
 </manifest>

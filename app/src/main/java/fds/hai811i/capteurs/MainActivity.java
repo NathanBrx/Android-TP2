@@ -20,15 +20,20 @@ public class MainActivity extends AppCompatActivity {
         toMissingSensorList.setOnClickListener(view -> goToSensorList("missing"));
 
         Button toAccelerometer = findViewById(R.id.toAccelerometer);
-        toAccelerometer.setOnClickListener(view -> {
-            Intent i = new Intent(MainActivity.this, AccelerometerActivity.class);
-            startActivity(i);
-        });
+        toAccelerometer.setOnClickListener(view -> goTo(AccelerometerActivity.class));
+
+        Button toDirection = findViewById(R.id.toDirection);
+        toDirection.setOnClickListener(view -> goTo(DirectionActivity.class));
     }
 
     private void goToSensorList(String mode) {
         Intent sensorList = new Intent(MainActivity.this, SensorActivity.class);
         sensorList.putExtra("MODE", mode);
         startActivity(sensorList);
+    }
+
+    private void goTo(Class<?> clazz) {
+        Intent i = new Intent(MainActivity.this, clazz);
+        startActivity(i);
     }
 }
