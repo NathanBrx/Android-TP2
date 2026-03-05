@@ -25,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
         Button toDirection = findViewById(R.id.toDirection);
         toDirection.setOnClickListener(view -> goTo(DirectionActivity.class));
 
-        Button toFlashShut = findViewById(R.id.toFlashShut);
-        toFlashShut.setOnClickListener(view -> goTo(FlashActivity.class));
+        Button toFlash = findViewById(R.id.toFlash);
+        toFlash.setOnClickListener(view -> goTo(FlashActivity.class));
+
+        Button toProximity = findViewById(R.id.toProximity);
+        toProximity.setOnClickListener(view -> goTo(ProximityActivity.class));
     }
 
     private void goToSensorList(String mode) {
