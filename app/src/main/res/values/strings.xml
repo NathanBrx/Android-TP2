@@ -2,10 +2,12 @@
     <string name="app_name">Capteurs</string>
     <string name="toSensorListBtn">Afficher la liste des capteurs</string>
     <string name="toMissingSensorListBtn">Afficher la liste des capteurs manquants</string>
-    <string name="toAccelerometerBtn">Ouvrir le test d\'accéléromètre</string>
-    <string name="toDirectionBtn">Ouvrir le test de direction</string>
-    <string name="toFlashBtn">Ouvrir le test du flash</string>
+    <string name="toAccelerometerBtn">Lancer le test d\'accéléromètre</string>
+    <string name="toDirectionBtn">Lancer le test de direction</string>
+    <string name="toFlashBtn">Lancer le test du flash</string>
+    <string name="toProximityBtn">Lancer le test de proximité</string>
     <string name="dontHave">Vous n\'avez pas de capteur de type :</string>
     <string name="accelerometer">Secouez le téléphone pour changer le fond d\'écran</string>
     <string name="flash">Secouez le téléphone pour allumer le flash ou l\'éteindre</string>
+    <string name="indicator">proximity indicator</string>
 </resources>

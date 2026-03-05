@@ -31,6 +31,7 @@
         <activity android:name=".AccelerometerActivity"/>
         <activity android:name=".DirectionActivity"/>
         <activity android:name=".FlashActivity"/>
+        <activity android:name=".ProximityActivity"/>
     </application>
 
 </manifest>

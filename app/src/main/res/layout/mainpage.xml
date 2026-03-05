@@ -25,7 +25,7 @@
         android:id="@+id/toMissingSensorList"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginVertical="50dp"
+        android:layout_marginVertical="20dp"
         android:backgroundTint="@color/teal_700"
         android:text="@string/toMissingSensorListBtn"
         android:textSize="16sp"
@@ -42,7 +42,7 @@
         android:id="@+id/toAccelerometer"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginVertical="50dp"
+        android:layout_marginVertical="20dp"
         android:backgroundTint="@color/teal_700"
         android:text="@string/toAccelerometerBtn"
         android:textSize="16sp"
@@ -59,7 +59,7 @@
         android:id="@+id/toDirection"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginVertical="50dp"
+        android:layout_marginVertical="20dp"
         android:backgroundTint="@color/teal_700"
         android:text="@string/toDirectionBtn"
         android:textSize="16sp"
@@ -73,10 +73,10 @@
         app:layout_constraintWidth_percent="0.8"/>
 
     <Button
-        android:id="@+id/toFlashShut"
+        android:id="@+id/toFlash"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginVertical="50dp"
+        android:layout_marginVertical="20dp"
         android:backgroundTint="@color/teal_700"
         android:text="@string/toFlashBtn"
         android:textSize="16sp"
@@ -86,6 +86,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toDirection"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintWidth_percent="0.8"/>
+
+    <Button
+        android:id="@+id/toProximity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/toProximityBtn"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toFlash"
         app:layout_constraintHeight_percent="0.1"
         app:layout_constraintWidth_percent="0.8"/>
 
