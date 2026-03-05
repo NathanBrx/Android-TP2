@@ -5,13 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/pageTitle"
+        android:id="@+id/listTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sensorlist"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#000000"
         android:layout_margin="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +21,7 @@
         android:layout_height="0dp"
         android:paddingTop="30dp"
         android:clipToPadding="false"
-        app:layout_constraintTop_toBottomOf="@id/pageTitle"
+        app:layout_constraintTop_toBottomOf="@id/listTitle"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

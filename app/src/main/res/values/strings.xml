@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Capteurs</string>
-    <string name="sensorlist">Liste des capteurs</string>
     <string name="toSensorListBtn">Afficher la liste des capteurs</string>
+    <string name="toMissingSensorListBtn">Afficher la liste des capteurs manquants</string>
+    <string name="dontHave">Vous n\'avez pas de capteur de type :</string>
 </resources>
