@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button toProximity = findViewById(R.id.toProximity);
         toProximity.setOnClickListener(view -> goTo(ProximityActivity.class));
+
+        Button toGPS = findViewById(R.id.toGPS);
+        toGPS.setOnClickListener(view -> goTo(GPSActivity.class));
     }
 
     private void goToSensorList(String mode) {
